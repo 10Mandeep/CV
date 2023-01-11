@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+
+  font-family: 'poppins', sans-serif;
+
+}
+
+h1{
+    text-align: center;
+    color: #99ea47;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+h3 {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+body {
+
+  background-color: #eae9e9;
+
+}
+
+.mh-skills .mh-professional-skill {
+  padding-right: 40px;
+  color: rgb(48, 156, 67);
+
+}
+
+.mh-skills .mh-professional-skill h3 {
+  font-size: 30px;
+  padding-top: 20px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 60px;
+  font-family: 'poppins';
+
+}
+
+.mh-professional-skills {
+  padding-left: 10%;
+}
+
+.mh-professional-skills h3 {
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 60px;
+  font-family: 'poppins';
+}
+
+.mh-professional-progress li {
+  display: inline-block;
+  margin: 0 auto;
+  float: none;
+  width: 48%;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.mh-progress {
+  margin-bottom: 10px;
+  font: 900 1.14285/1 Cinzerl, cursive;
+  color: rgb(15, 15, 15);
+}
+
+.mh-progress .progressbar-text {
+  color: inherit !important;
+  font-family: 'poppins';
+}
+
+.mh-progress.progress-line {
+  height: 10px;
+  margin-right: 60px;
+
+}
+
+.mh-progress.progress-line .progressbar-text {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: 70%;
+  
+  transform: translateY(-35%);
+  text-align: center;
+  font-family: 'poppins';
+}
+
+.mh-progress.mh-progress-circle {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+
+.mh-progress path:nth-child(1) {
+  stroke: rgba(0, 0, 0, 0.7);
+}
+
+.mh-progress path:nth-child(2) {
+  stroke: #99ea47 !important;
+
+}
+
+.candidatos {
+  position: relative;
+  margin-bottom: 15px;
+  font-family: 'poppins';
+}
+
+.candidatos .pracial {
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+
+}
+
+.candidatos .pracial .info {
+  position: relative;
+  font-family: 'poppins';
+}
+
+.candidatos .pracial .info .nome {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 15px;
+  font-weight: 1000;
+  opacity: 1;
+  font-family: 'poppins';
+}
+
+.candidatos .pracial .info .percentage-num {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.candidatos .pracial .progressBar {
+  position: relative;
+  width: 100%;
+  height: 7px;
+  margin: 30px 0 2px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.candidatos .pracial .percentagem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 7px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: #99ea47;
+  -webkit-transition: 3s all;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-name: animationProgress;
+  font-family: 'poppins';
+
+}
+
+.percentual {
+  animation-name: animationProgress;
+}
+
+@keyframes animationProgress {
+  from {
+    width: 0;
+  }
+}
